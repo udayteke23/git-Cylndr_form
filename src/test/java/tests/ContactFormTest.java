@@ -49,6 +49,8 @@ public class ContactFormTest extends BaseTest {
         String expectedMsg = "Thank you for contacting us. We will be in touch with you shortly!";
         System.out.println(expectedMsg);
         Assert.assertTrue(successMsg.getText().contains(expectedMsg), "Form submission failed: Success message not found");
+        
+        System.out.println("Test Case Passed");
     }
 
     @AfterMethod
