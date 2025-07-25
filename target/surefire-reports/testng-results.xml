@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-25T09:34:34 IST" name="Surefire suite" finished-at="2025-07-25T09:35:35 IST" duration-ms="60642">
+    <groups>
+    </groups>
+    <test started-at="2025-07-25T09:34:34 IST" name="Surefire test" finished-at="2025-07-25T09:35:35 IST" duration-ms="60642">
+      <class name="tests.ContactFormTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.ContactFormTest@352c1b98]" started-at="2025-07-25T09:34:34 IST" name="setUp" finished-at="2025-07-25T09:34:38 IST" duration-ms="3874" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testContactForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.ContactFormTest@352c1b98]" started-at="2025-07-25T09:34:39 IST" name="testContactForm" description="Submit contact form with different data" data-provider="formData" finished-at="2025-07-25T09:35:07 IST" duration-ms="28218" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test User]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[john@test.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9653665366]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Hello EC]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testContactForm -->
+        <test-method is-config="true" signature="onTestFailure(org.testng.ITestResult)[pri:0, instance:tests.ContactFormTest@352c1b98]" started-at="2025-07-25T09:35:07 IST" name="onTestFailure" finished-at="2025-07-25T09:35:07 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testContactForm status=SUCCESS method=ContactFormTest.testContactForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.ContactFormTest@352c1b98] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onTestFailure -->
+        <test-method signature="testContactForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.ContactFormTest@352c1b98]" started-at="2025-07-25T09:35:07 IST" name="testContactForm" description="Submit contact form with different data" data-provider="formData" finished-at="2025-07-25T09:35:34 IST" duration-ms="26685" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Uday Teke]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[uday.teke@helloec.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9656365566]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Welcome to cylndr]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testContactForm -->
+        <test-method is-config="true" signature="onTestFailure(org.testng.ITestResult)[pri:0, instance:tests.ContactFormTest@352c1b98]" started-at="2025-07-25T09:35:34 IST" name="onTestFailure" finished-at="2025-07-25T09:35:34 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testContactForm status=SUCCESS method=ContactFormTest.testContactForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.ContactFormTest@352c1b98] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onTestFailure -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ContactFormTest@352c1b98]" started-at="2025-07-25T09:35:34 IST" name="tearDown" finished-at="2025-07-25T09:35:35 IST" duration-ms="631" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.ContactFormTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
