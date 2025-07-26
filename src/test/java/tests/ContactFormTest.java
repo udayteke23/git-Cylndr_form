@@ -51,6 +51,7 @@ public class ContactFormTest extends BaseTest {
         Assert.assertTrue(successMsg.getText().contains(expectedMsg), "Form submission failed: Success message not found");
         
         System.out.println("Test Case Passed");
+        System.out.println("Form has been submited successfully......");
     }
 
     @AfterMethod
