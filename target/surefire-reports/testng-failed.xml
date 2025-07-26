@@ -8,7 +8,7 @@
           <include name="onTestFailure"/>
           <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="testContactForm" invocation-numbers="0"/>
+          <include name="testContactForm" invocation-numbers="0 1"/>
         </methods>
       </class> <!-- tests.ContactFormTest -->
     </classes>
