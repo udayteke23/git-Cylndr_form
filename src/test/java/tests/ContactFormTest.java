@@ -43,7 +43,7 @@ public class ContactFormTest extends BaseTest {
             
         );
 
-        System.out.println("Please solve CAPTCHA manually...");
+        System.out.println("Please solve CAPTCHA manually......");
         Thread.sleep(20000);
 
         String expectedMsg = "Thank you for contacting us. We will be in touch with you shortly!";
